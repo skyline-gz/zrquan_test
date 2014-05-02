@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  content: MyText
+  mentor_id: 
+  apprentice_id: 
+  to_mentor_flag: 1
+  to_user_flag: 1
+
+two:
+  title: MyString
+  content: MyText
+  mentor_id: 
+  apprentice_id: 
+  to_mentor_flag: 1
+  to_user_flag: 1

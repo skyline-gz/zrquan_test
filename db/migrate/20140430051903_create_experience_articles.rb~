@@ -1,0 +1,17 @@
+class CreateExperienceArticles < ActiveRecord::Migration
+  def change
+    create_table :experience_articles do |t|
+      t.string :title
+      t.text :content
+      t.integer :type
+      t.integer :agree_score
+      t.integer :theme
+      t.integer :industry
+      t.integer :category
+      t.integer :mark_flag
+      t.references :user, index: true
+
+      t.timestamps
+    end
+  end
+end
