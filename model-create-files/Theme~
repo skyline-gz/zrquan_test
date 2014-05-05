@@ -1,1 +1,0 @@
-rails generate model Comment content:text user:references subject_id:references comment_type:integer

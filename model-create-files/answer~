@@ -1,1 +1,0 @@
-rails generate model Answer content:text agree_score:integer user:references
