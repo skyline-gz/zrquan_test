@@ -1,0 +1,1 @@
+rails generate model User mail:string first_name:string last_name:string gender:integer password:string province:integer city:integer school:string major:string industry:string company:string position:string signature:string regist_time:timestamp last_login:timestamp following_num:integer follower_num:integer description:text mentor_flag:boolean 

@@ -1,0 +1,1 @@
+rails generate model ConsultantSubject title:string content:text mentor:references apprentice:references to_mentor_flag:integer to_user_flag:integer

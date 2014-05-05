@@ -1,0 +1,1 @@
+rails generate model Question title:string content:text theme:integer answer_num:integer mark_flag:boolean industry:integer category:integer user:integer

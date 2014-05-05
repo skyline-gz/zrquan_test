@@ -1,0 +1,1 @@
+rails generate model ExperienceArticle title:string content:text type:integer agree_score:integer theme:integer industry:integer category:integer mark_flag:integer user:references

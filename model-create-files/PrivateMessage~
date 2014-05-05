@@ -1,0 +1,1 @@
+rails generate model Message content:text u1_to_u2_flag:integer

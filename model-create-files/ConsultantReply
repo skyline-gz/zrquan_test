@@ -1,0 +1,1 @@
+rails generate model ConsultantReply content:text consultant_subject:references user:references

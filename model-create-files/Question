@@ -1,0 +1,1 @@
+rails generate model Question title:string content:text theme:references answer_num:integer mark_flag:boolean industry:references category:references user:references
